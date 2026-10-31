@@ -3,13 +3,18 @@ import { NavLink } from 'react-router-dom'
 
 const NavBar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark ">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark sticky-top ">
       <div className="container">
         <NavLink
           to="/"
           className="navbar-brand fs-3 fw-semibold text-warning ps-4"
         >
-          PIANOS<span className="text-white">.</span>
+         {/* Rodrigo's Piano<span className="text-white">.</span> */}
+         <img
+            src="/rodrigos-pianos-logo.png"
+            alt="Rodrigo's Pianos"
+            width="120"
+          />
         </NavLink>
 
         <button
