@@ -1,0 +1,68 @@
+body {
+  background-image: url('/piano-background.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.piano-navbar {
+  background-color: #171717;
+}
+
+.piano-logo {
+  color: #c6a46a !important;
+  font-family: Georgia, serif;
+  letter-spacing: 2px;
+}
+
+.home-hero {
+  min-height: 600px;
+  background:
+    linear-gradient(rgba(0,0,0,.75), rgba(0,0,0,.55));
+     
+}
+
+.home-intro {
+  min-height: 600px;
+  background: linear-gradient(
+    180deg,
+    rgba(248, 246, 241, 0.95) 0%,
+    rgba(248, 246, 241, 0.85) 50%,
+    rgba(23, 23, 23, 0.75) 100%
+  );
+}
+
+
+.site-footer {
+  background-color: #171717;
+  color: white;
+}
+
+
+#contact {
+ 
+  padding: 5vh;
+  background-color: #212121;
+  color: white;
+}
+
+
+
+
+.outline-text {
+  color: transparent;
+  -webkit-text-stroke: 1px white;
+}
+
+
+.bottom{
+  height:100%;
+}
+
+.shadeb {
+text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.35);
+}
+
+.shadew {
+  text-shadow: 1px 2px 4px rgba(255, 255, 255, 0.35);
+} 
