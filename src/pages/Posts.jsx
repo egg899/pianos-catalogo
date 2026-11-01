@@ -12,8 +12,8 @@ const Posts = () => {
         const response = await fetch('/api/facebook')
         const data = await response.json()
 
-        if (!response.ok) {
-          throw new Error(data.error || 'Could not load Facebook posts')
+       if (!response.ok) {
+          throw new Error(JSON.stringify(data.error || data))
         }
 
         setPosts(data.data || [])
